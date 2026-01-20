@@ -24,9 +24,9 @@ line-height: 24px;
 color: rgb(255, 255, 255);
 }
 .hero{
-   background-image: url("/aseets/Imag/osaka-img/bg-hero.jpg"); 
+   background-image: url("../aseets/Imag/osaka-img/bg-hero.jpg"); 
    background-size:cover;
 }
 .about{
-    background-image: url("/aseets/Imag/osaka-img/light_dot.jpg");
+    background-image: url("../aseets/Imag/osaka-img/light_dot.jpg");
 }
