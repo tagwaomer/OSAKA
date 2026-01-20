@@ -1,0 +1,32 @@
+:root{
+    --primary-color:#ff216e;
+    --mainFont:"Open Sans", sans-serif;
+}
+.text_primary{
+    color: var(--primary-color);
+}
+body{
+    font-family: var(--mainFont);
+}
+ .navbar .nav-item .nav-link{
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+color: rgb(255, 255, 255);
+}
+ .navbar .navbar-nav .nav-link.active,.navbar .navbar-nav .nav-link.show{  
+    color: var(--primary-color);
+}
+.navbar .navbar-brand{
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+color: rgb(255, 255, 255);
+}
+.hero{
+   background-image: url("/aseets/Imag/osaka-img/bg-hero.jpg"); 
+   background-size:cover;
+}
+.about{
+    background-image: url("/aseets/Imag/osaka-img/light_dot.jpg");
+}
