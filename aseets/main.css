@@ -41,7 +41,7 @@ body{
 }
 
 .hero {
-    background: url('./Imag/osaka-img/hero.jpg');
+    background: url('./Imag/osaka-img/bg.jpg');
     background-size: cover;
 }
 
@@ -59,6 +59,10 @@ body{
 }
 .h4{
     color: var(--primary-color);
+}
+.img-thumbnail{
+    width:150px;
+    height: 150px;
 }
 .Portfolio .nav-tabs .nav-item.show .nav-link,
 .Portfolio .nav-tabs .nav-link.active {
