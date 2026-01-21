@@ -1,74 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="aseets/main.css">
-    <title>Home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OSAKA</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
+
+<link rel="stylesheet" href="aseets/main.css">
 </head>
 <body>
-<main>
-  <nav class="navbar navbar-expand-lg position-fixed w-100">
-    <div class="container-fluid">
-
-      <a class="navbar-brand" href="#">OSAKA</a>
-
-      <button class="navbar-toggler" type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active fw-medium text-uppercase" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-medium text-uppercase" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-medium text-uppercase" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-medium text-uppercase" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-medium text-uppercase" href="#">Price</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-medium text-uppercase" href="#">Clients</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-medium text-uppercase" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-medium text-uppercase" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-
+  <main>
+<nav class="navbar navbar-expand-lg position-fixed w-100 bg-black">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">OSAKA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active fw-medium text-uppercase" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link fw-medium text-uppercase" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link fw-medium text-uppercase"  accordion data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" >Services</a></li>
+        <li class="nav-item"><a class="nav-link fw-medium text-uppercase" href="#">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link fw-medium text-uppercase" href="#">Price</a></li>
+        <li class="nav-item"><a class="nav-link fw-medium text-uppercase" href="#">Clients</a></li>
+        <li class="nav-item"><a class="nav-link fw-medium text-uppercase" href="#">Blog</a></li>
+        <li class="nav-item"><a class="nav-link fw-medium text-uppercase" href="#">Contact</a></li>
+      </ul>
     </div>
-  </nav>
-
-  <section class="hero vh-100">
-    <div class="container h-100">
-      <div class="hero-content h-100 d-flex flex-column justify-content-center">
-        <h1 class="text-white">Robin Steel</h1>
-        <p class="text-white">Developer, Graphics & Web Design</p>
-        <a href="#" class="text_primary text-decoration-none">View Portfolio</a>
-      </div>
+  </div>
+</nav>
+<section class="hero vh-100 d-flex align-items-center">
+  <div class="container">
+    <div class="hero-content text-white">
+      <h1>Robin Steel</h1>
+      <p>Developer, Graphics & Web Design</p>
+      <a href="#" class="text_primary text-decoration-none">View Portfolio</a>
     </div>
-  </section>
-
+  </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <section class="about py-5">
   <div class="title text-center mb-5">
     <h2 class="text-uppercase">about</h2>
@@ -79,16 +52,140 @@
       <div class="col-md-4">
         <img src="./aseets/Imag/osaka-img/me.jpg" class="img-fluid"/>
       </div>
-      <div class="col-md-7 offset-1">
+      <div class="col-md-7 offset-md-1">
         <h3>Robin Steel</h3>
-        <h4>Creative UI/UX Designer, Developer.</h4>
+        <h4 class="h4">Creative UI/UX Designer, Developer.</h4>
         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
       <p class="fw-bolder">E-mail:<a href="mailo:info@yourdomain.com" class="text-black">info@yourdomain.com</a></p>
       </div>
     </div>
   </div>
 </section>
+<section class="Portfolio py-5">
+  <div class="title text-center mb-5">
+    <h2 class="text-uppercase">Portfolio</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  </div>
+<nav>
+  <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link fw-bold active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all-tab-pane" type="button" role="tab" aria-controls="all-tab-pane" aria-selected="true">All</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link fw-bold" id="dev-tab" data-bs-toggle="tab" data-bs-target="#dev-tab-pane" type="button" role="tab" aria-controls="dev-tab-pane" aria-selected="false">Dev</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link fw-bold" id="web-tab" data-bs-toggle="tab" data-bs-target="#web-tab-pane" type="button" role="tab" aria-controls="web-tab-pane" aria-selected="false">Web</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link fw-bold" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane" type="button" role="tab" aria-controls="design-tab-pane" aria-selected="false" >Design</button>
+  </li> 
+</ul>
+<div class="tab-content mt-4" id="myTabContent">
+  <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab" tabindex="0">
+  <div class="container-fluid">
+    <div class="row g-5 gap-sm-3 gap-md-0 g-md-3 g-lg-4">
+      <div class="col-md-4">
+        <div class="portfolio-img"><img src="./aseets/Imag/osaka-img/Creative Design.jpg" class="img-fluid">
+      </div>
+    </div>
+     <div class="col-md-4">
+        <div class="portfolio-img"><img src="./aseets/Imag/osaka-img/App Design.jpg" class="img-fluid">
+      </div>
+    </div>
+     <div class="col-md-4">
+        <div class="portfolio-img"><img src="./aseets/Imag/osaka-img/Branding.jpg" class="img-fluid">
+      </div>
+    </div>
+     <div class="col-md-4">
+        <div class="portfolio-img"><img src="./aseets/Imag/osaka-img/Web Develop.jpg" class="img-fluid" >
+      </div>
+    </div>
+     <div class="col-md-4">
+        <div class="portfolio-img"><img src="./aseets/Imag/osaka-img/3D Model.jpg" class="img-fluid">
+      </div>
+    </div>
+     <div class="col-md-4">
+        <div class="portfolio-img"><img src="./aseets/Imag/osaka-img/App Develop.jpg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="tab-pane fade" id="dev-tab-pane" role="tabpanel" aria-labelledby="dev-tab" tabindex="0">
+   <div class="container-fluid">
+    <div class="row g-5">
+     <div class="col-md-4">
+        <div class="portfolio-img"><img src="./aseets/Imag/osaka-img/Web Develop.jpg" class="img-fluid" >
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="tab-pane fade" id="web-tab-pane" role="tabpanel" aria-labelledby="web-tab" tabindex="0">
+    <div class="container-fluid">
+    <div class="row g-5">
+     <div class="col-md-4">
+        <div class="portfolio-img"><img src="./aseets/Imag/osaka-img/App Develop.jpg" class="img-fluid" >
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="tab-pane fade" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
+      <div class="container-fluid">
+    <div class="row g-5">
+      <div class="col-md-4">
+        <div class="portfolio-img"><img src="./aseets/Imag/osaka-img/Creative Design.jpg" class="img-fluid">
+      </div>
+    </div>
+     <div class="col-md-4">
+        <div class="portfolio-img"><img src="./aseets/Imag/osaka-img/App Design.jpg" class="img-fluid">
+      </div>
+    </div>
+     <div class="col-md-4">
+        <div class="portfolio-img"><img src="./aseets/Imag/osaka-img/Branding.jpg" class="img-fluid">
+      </div>
+    </div>
+     <div class="col-md-4">
+        <div class="portfolio-img"><img src="./aseets/Imag/osaka-img/3D Model.jpg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+</nav>
+</section>
   </main> 
+  <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+  Link with href
+</a>
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+  Button with data-bs-target
+</button>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
